@@ -5,7 +5,6 @@ Time Complexity: O(n log n) (Best, Average, Worst)
 Space Complexity: O(n)
 """
 
-
 def merge(left, right):
     merged = []
     i, j = 0, 0
