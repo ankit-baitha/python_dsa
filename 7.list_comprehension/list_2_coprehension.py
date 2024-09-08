@@ -6,8 +6,8 @@
 #         my_list.append(i)
 # print(my_list)
 
-# my_list = [i for i in range(1, 11)]
-# print(my_list)
+my_list = [i for i in range(1, 11)]
+print(my_list)
 
 
 my_list = [i + 3 for i in range(1, 11)]

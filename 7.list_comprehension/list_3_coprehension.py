@@ -12,3 +12,5 @@ def prime(num: int) -> bool:
 
 my_list1 = [i for i in range(1, 100) if prime(i)]
 print(my_list1)
+
+

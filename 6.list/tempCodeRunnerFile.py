@@ -1,6 +1,9 @@
-my_list = []
-for i in range(1, 7):
-    number = int(input("enter the element ",i))
 
-    my_list.append(number)
-print(my_list)
+# b[0] = 1000
+# print(f"a= {a}")
+# print(f"b= {b}")
+
+
+print()
+c = [2, 3, 4, 5, 56, 6, 6, 8]
+d = c.copy()  # shallow copy  address change
