@@ -49,3 +49,30 @@ print(x)
 
 
 
+""""
+optimal s
+time complexity = O(n)
+space complexity =O(n)
+"""
+
+def move(nums):
+    if len(nums)==1:
+        return 
+    i=0
+    while i<len(nums):
+        if nums[i]==0:
+            break
+        i +=1
+    j=i+1
+    while j<len(nums):
+        if nums[j]!=0:
+            nums[i],nums[j]=nums[j],nums[i]
+            i +=1
+        j +=1
+    return nums
+
+
+nums=[0,1,0,3,12]
+x=move(nums)
+print(x)
+
