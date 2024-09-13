@@ -42,6 +42,7 @@ def sortColors(nums):
             else:
                 nums[mid], nums[high] = nums[high], nums[mid]
                 high -= 1
+        return nums
                 
 nums=[1,0,2,3,2,0,0,4,5,1]
 x=Move_zeros(nums)
