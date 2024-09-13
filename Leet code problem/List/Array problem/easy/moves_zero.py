@@ -3,7 +3,7 @@ brute solution
 time complexity= O(n)
 space complexity =O(n)
 """
-
+# right sift zero
 def Move_zeros(nums):
     non_zero_list=[]
     n=len(nums)
@@ -20,10 +20,10 @@ def Move_zeros(nums):
     return nums
 nums=[1,0,2,3,2,0,0,4,5,1]
 x=Move_zeros(nums)
-print(x)
+print("Right sift zeros ", x)
 
 
-
+#left sift zero
 def sortColors(nums):
         """
         Do not return anything, modify nums in-place instead.
@@ -45,8 +45,8 @@ def sortColors(nums):
         return nums
                 
 nums=[1,0,2,3,2,0,0,4,5,1]
-x=Move_zeros(nums)
-print(x)
+x=sortColors(nums)
+print("Left sift zeros", x)
 
 
 
@@ -55,7 +55,7 @@ optimal s
 time complexity = O(n)
 space complexity =O(n)
 """
-
+# right sift zeros
 def move(nums):
     if len(nums)==1:
         return 
@@ -74,6 +74,6 @@ def move(nums):
 
 
 nums=[0,1,0,3,12]
-x=move(nums)
-print(x)
+x=move( nums)
+print("right sift zeros",x)
 
