@@ -13,3 +13,5 @@ def linear_search(nums,target):
 nums=[3, 5, 1, 2, 9]
 x=linear_search(nums,2)
 print(x)
+
+
