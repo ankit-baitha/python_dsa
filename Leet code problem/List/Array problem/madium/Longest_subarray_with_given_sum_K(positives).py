@@ -52,7 +52,6 @@ for i in range(0,len(arr)):
     sum +=arr[i]
     if sum==k:
         maximum_length = i+1
-        
     remaining = sum - k
     
     if remaining in sum_map:
