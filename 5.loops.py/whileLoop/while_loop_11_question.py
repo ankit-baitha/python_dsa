@@ -18,7 +18,7 @@ def chek_prime(num: int) -> bool:
         return True
     else:
         return False
-        return False
+
 
 
 print(chek_prime(10))
