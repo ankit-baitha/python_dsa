@@ -16,6 +16,8 @@ print(max_profit)
             
 
 '''
+time complexity=0(n)
+space complexity = O(1)
 
 '''
 def stock_buy(prices):
