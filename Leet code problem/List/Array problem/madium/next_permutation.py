@@ -19,7 +19,7 @@ def next_permutation(nums):
 
     # Step 3: reverse the right half:
     nums[ind + 1 :] = reversed(nums[ind + 1 :])
-    print(nums)
-    
-nums=[1,2,3]
-next_permutation(nums)
+    return nums    
+nums=[3,2,1]
+result=next_permutation(nums)
+print(result)
