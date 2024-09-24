@@ -20,6 +20,6 @@ def next_permutation(nums):
     # Step 3: reverse the right half:
     nums[ind + 1 :] = reversed(nums[ind + 1 :])
     return nums    
-nums=[3,2,1]
+nums=[1,2,3]
 result=next_permutation(nums)
 print(result)
