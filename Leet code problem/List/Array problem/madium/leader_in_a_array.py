@@ -1,6 +1,6 @@
 """
 time complexity = O(n)
-space complexity = O(n)
+space complexity = O
 """
 
 def leader_in_array(nums):
