@@ -33,7 +33,7 @@ def buble_sort1(arr):
             if arr[j]>arr[j+1]:
                 arr[j],arr[j+1]=arr[j+1],arr[j]
                 swap=True
-    if swap ==False:
-        return arr 
+        if swap ==False:
+            return arr 
 print(buble_sort1([1,2,3,4,5]))
 
