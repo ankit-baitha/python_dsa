@@ -5,14 +5,14 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-
+ 
         low = self.lower_bound(nums,target)
         high= self.upper_bound(nums,target)
         if low <=high:
             return [low,high]
         else:
             return [-1,-1]
-
+    
     def lower_bound(self, nums,target):
         left=0
         right=len(nums)-1
@@ -23,7 +23,7 @@ class Solution(object):
             else:
                 right=mid-1
         return left
-
+ 
     def upper_bound(self, nums,target):
         left=0
         right=len(nums)-1
@@ -34,14 +34,14 @@ class Solution(object):
             else:
                 left=mid+1
         return right
-
-
+ 
+ 
 nums = [5,7,7,8,8,10]
 target = 8
-
-# print(Solution().searchRange(nums,target))
-
-# method 2
+ 
+ # print(Solution().searchRange(nums,target))
+ 
+ # method 2
 def binary_search_left(nums,target):
     ans=-1
     low=0
@@ -58,8 +58,8 @@ def binary_search_left(nums,target):
     return ans
 nums = [5,7,7,8,8,10]
 target = 8
-
-
+ 
+ 
 def binary_search_right(nums,target):
     ans=-1
     low=0
