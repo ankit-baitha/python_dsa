@@ -23,4 +23,4 @@ def search_in_rotated_array_II(arr,target):
 
         return False
 arr=[2,5,6,0,0,1,2]
-print(search_in_rotated_array(arr,3))
+print(search_in_rotated_array_II(arr,3))
