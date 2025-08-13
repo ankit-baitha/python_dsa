@@ -55,7 +55,7 @@ def Twosum1(num,target):
         if num[left] + num[right] >target:
             right -=1
         else:
-            lef -=1
+            left -=1
             
     return False
 num=[1,3,4,6,7,7,3,7]
